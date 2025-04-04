@@ -1,0 +1,19 @@
+/**
+ * This file was generated automatically by Supernova.io and should not be changed manually.
+ * To modify the format or content of this file, please contact your design system team. 
+ */
+
+.theme-light-a320 {
+  --border-radius-radius-none-0: 0px;
+  --border-radius-radius-xxs-2: 2px;
+  --border-radius-radius-xs-4: 4px;
+  --border-radius-radius-sm-6: 6px;
+  --border-radius-radius-md-8: 8px;
+  --border-radius-radius-lg-10: 10px;
+  --border-radius-radius-xl-12: 12px;
+  --border-radius-radius-2xl-16: 16px;
+  --border-radius-radius-3xl-20: 20px;
+  --border-radius-radius-4xl-24: 24px;
+  --border-radius-radius-5xl-32: 32px;
+  --border-radius-radius-full-9999: 9999px;
+}

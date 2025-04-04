@@ -1,0 +1,23 @@
+/**
+ * This file was generated automatically by Supernova.io and should not be changed manually.
+ * To modify the format or content of this file, please contact your design system team. 
+ */
+
+:root {
+  --font-size-font-size-label: 12px;
+  --font-size-font-size-button: 14px;
+  --font-size-font-size-links-sm: 14px;
+  --font-size-font-size-links-md: 16px;
+  --font-size-font-size-links-lg: 18px;
+  --font-size-font-size-links-xl: 20px;
+  --font-size-font-size-body-sm: 14px;
+  --font-size-font-size-body-md: 16px;
+  --font-size-font-size-body-lg: 18px;
+  --font-size-font-size-body-xl: 20px;
+  --font-size-font-size-header-6: 24px;
+  --font-size-font-size-header-5: 30px;
+  --font-size-font-size-header-4: 36px;
+  --font-size-font-size-header-3: 48px;
+  --font-size-font-size-header-2: 60px;
+  --font-size-font-size-header-1: 72px;
+}

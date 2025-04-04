@@ -1,0 +1,80 @@
+/**
+ * This file was generated automatically by Supernova.io and should not be changed manually.
+ * To modify the format or content of this file, please contact your design system team. 
+ */
+
+.theme-light-a320 {
+  --typography-typography-headers-h1-regular: 400 var(--font-size-font-size-header-1)/var(--line-height-line-height-headers-header-1) "Bona Nova";
+  --typography-typography-headers-h1-medium: var(--font-weight-font-weight-medium) var(--font-size-font-size-header-1)/var(--line-height-line-height-headers-header-1) var(--font-family-font-family-display);
+  --typography-typography-headers-h1-semibold: var(--font-weight-font-weight-semi-bold) var(--font-size-font-size-header-1)/var(--line-height-line-height-headers-header-1) var(--font-family-font-family-display);
+  --typography-typography-headers-h1-bold: var(--font-weight-font-weight-bold) var(--font-size-font-size-header-1)/var(--line-height-line-height-headers-header-1) var(--font-family-font-family-display);
+  --typography-typography-headers-h2-medium: var(--font-weight-font-weight-medium) var(--font-size-font-size-header-2)/var(--line-height-line-height-headers-header-2) var(--font-family-font-family-display);
+  --typography-typography-headers-h2-semibold: var(--font-weight-font-weight-semi-bold) var(--font-size-font-size-header-2)/var(--line-height-line-height-headers-header-2) var(--font-family-font-family-display);
+  --typography-typography-headers-h2-bold: var(--font-weight-font-weight-semi-bold) var(--font-size-font-size-header-2)/var(--line-height-line-height-headers-header-2) var(--font-family-font-family-display);
+  --typography-typography-headers-h3-regular: var(--font-weight-font-weight-regular) var(--font-size-font-size-header-3)/var(--line-height-line-height-headers-header-3) var(--font-family-font-family-display);
+  --typography-typography-headers-h3-medium: var(--font-weight-font-weight-medium) var(--font-size-font-size-header-3)/var(--line-height-line-height-headers-header-3) var(--font-family-font-family-display);
+  --typography-typography-headers-h3-semibold: var(--font-weight-font-weight-semi-bold) var(--font-size-font-size-header-3)/var(--line-height-line-height-headers-header-3) var(--font-family-font-family-display);
+  --typography-typography-headers-h3-bold: var(--font-weight-font-weight-bold) var(--font-size-font-size-header-3)/var(--line-height-line-height-headers-header-3) var(--font-family-font-family-display);
+  --typography-typography-headers-h4-regular: var(--font-weight-font-weight-regular) var(--font-size-font-size-header-4)/var(--dimension-line-height-headers-header-7) var(--font-family-font-family-display);
+  --typography-typography-headers-h4-medium: var(--font-weight-font-weight-medium) var(--font-size-font-size-header-4)/var(--dimension-line-height-headers-header-7) var(--font-family-font-family-display);
+  --typography-typography-headers-h4-semibold: var(--font-weight-font-weight-semi-bold) var(--font-size-font-size-header-4)/var(--dimension-line-height-headers-header-7) var(--font-family-font-family-display);
+  --typography-typography-headers-h4-bold: var(--font-weight-font-weight-bold) var(--font-size-font-size-header-4)/var(--dimension-line-height-headers-header-7) var(--font-family-font-family-display);
+  --typography-typography-headers-h5-regular: var(--font-weight-font-weight-regular) var(--font-size-font-size-header-5)/var(--line-height-line-height-headers-header-5) var(--font-family-font-family-display);
+  --typography-typography-headers-h5-medium: var(--font-weight-font-weight-medium) var(--font-size-font-size-header-5)/var(--line-height-line-height-headers-header-5) var(--font-family-font-family-display);
+  --typography-typography-headers-h5-semibold: var(--font-weight-font-weight-semi-bold) var(--font-size-font-size-header-5)/var(--line-height-line-height-headers-header-5) var(--font-family-font-family-display);
+  --typography-typography-headers-h5-bold: var(--font-weight-font-weight-bold) var(--font-size-font-size-header-5)/var(--line-height-line-height-headers-header-5) var(--font-family-font-family-display);
+  --typography-typography-headers-h6-regular: var(--font-weight-font-weight-regular) var(--font-size-font-size-header-6)/var(--line-height-line-height-headers-header-6) var(--font-family-font-family-display);
+  --typography-typography-headers-h6-medium: var(--font-weight-font-weight-medium) var(--font-size-font-size-header-6)/var(--line-height-line-height-headers-header-6) var(--font-family-font-family-display);
+  --typography-typography-headers-h6-semibold: var(--font-weight-font-weight-semi-bold) var(--font-size-font-size-header-6)/var(--line-height-line-height-headers-header-6) var(--font-family-font-family-display);
+  --typography-typography-headers-h6-bold: var(--font-weight-font-weight-bold) var(--font-size-font-size-header-6)/var(--line-height-line-height-headers-header-6) var(--font-family-font-family-display);
+  --typography-typography-body-body-xl-regular: var(--font-weight-font-weight-regular) var(--font-size-font-size-body-xl)/var(--line-height-line-height-text-xl) var(--font-family-font-family-text);
+  --typography-typography-body-body-xl-medium: var(--font-weight-font-weight-medium) var(--font-size-font-size-body-xl)/var(--line-height-line-height-text-xl) var(--font-family-font-family-text);
+  --typography-typography-body-body-xl-semibold: var(--font-weight-font-weight-semi-bold) var(--font-size-font-size-body-xl)/var(--line-height-line-height-text-xl) var(--font-family-font-family-text);
+  --typography-typography-body-body-xl-bold: var(--font-weight-font-weight-bold) var(--font-size-font-size-body-xl)/var(--line-height-line-height-text-xl) var(--font-family-font-family-text);
+  --typography-typography-body-body-lg-regular: var(--font-weight-font-weight-regular) var(--font-size-font-size-body-lg)/var(--line-height-line-height-text-lg) var(--font-family-font-family-text);
+  --typography-typography-body-body-lg-semibold: var(--font-weight-font-weight-semi-bold) var(--font-size-font-size-body-lg)/var(--line-height-line-height-text-lg) var(--font-family-font-family-text);
+  --typography-typography-body-body-lg-bold: var(--font-weight-font-weight-bold) var(--font-size-font-size-body-lg)/var(--line-height-line-height-text-lg) var(--font-family-font-family-text);
+  --typography-typography-body-body-md-regular: var(--font-weight-font-weight-regular) var(--font-size-font-size-body-md)/var(--line-height-line-height-text-md) var(--font-family-font-family-text);
+  --typography-typography-body-body-md-medium: var(--font-weight-font-weight-medium) var(--font-size-font-size-body-md)/var(--line-height-line-height-text-md) var(--font-family-font-family-text);
+  --typography-typography-body-body-md-semibold: var(--font-weight-font-weight-semi-bold) var(--font-size-font-size-body-md)/var(--line-height-line-height-text-md) var(--font-family-font-family-text);
+  --typography-typography-body-body-md-bold: var(--font-weight-font-weight-bold) var(--font-size-font-size-body-md)/var(--line-height-line-height-text-md) var(--font-family-font-family-text);
+  --typography-typography-body-body-sm-regular: var(--font-weight-font-weight-regular) var(--font-size-font-size-body-sm)/var(--line-height-line-height-headers-header-1) var(--font-family-font-family-text);
+  --typography-typography-body-body-sm-medium: var(--font-weight-font-weight-medium) var(--font-size-font-size-body-sm)/var(--line-height-line-height-text-sm) var(--font-family-font-family-text);
+  --typography-typography-body-body-sm-semibold: var(--font-weight-font-weight-semi-bold) var(--font-size-font-size-body-sm)/var(--line-height-line-height-text-sm) var(--font-family-font-family-text);
+  --typography-typography-body-body-sm-bold: var(--font-weight-font-weight-bold) var(--font-size-font-size-body-sm)/var(--line-height-line-height-text-sm) var(--font-family-font-family-text);
+  --typography-typography-links-links-xl-regular: var(--font-weight-font-weight-regular) var(--font-size-font-size-links-xl)/var(--line-height-line-height-text-xl) var(--font-family-font-family-text);
+  --typography-typography-links-links-xl-medium: var(--font-weight-font-weight-medium) var(--font-size-font-size-links-xl)/var(--line-height-line-height-text-xl) var(--font-family-font-family-text);
+  --typography-typography-links-links-xl-semibold: var(--font-weight-font-weight-semi-bold) var(--font-size-font-size-links-xl)/var(--line-height-line-height-text-xl) var(--font-family-font-family-text);
+  --typography-typography-links-links-xl-bold: var(--font-weight-font-weight-bold) var(--font-size-font-size-links-xl)/var(--line-height-line-height-text-xl) var(--font-family-font-family-text);
+  --typography-typography-links-links-lg-regular: var(--font-weight-font-weight-regular) var(--font-size-font-size-links-lg)/var(--line-height-line-height-text-lg) var(--font-family-font-family-text);
+  --typography-typography-links-links-lg-medium: var(--font-weight-font-weight-medium) var(--font-size-font-size-links-lg)/var(--line-height-line-height-text-lg) var(--font-family-font-family-text);
+  --typography-typography-links-links-lg-semibold: var(--font-weight-font-weight-semi-bold) var(--font-size-font-size-links-lg)/var(--line-height-line-height-text-lg) var(--font-family-font-family-text);
+  --typography-typography-links-links-lg-bold: var(--font-weight-font-weight-bold) var(--font-size-font-size-links-lg)/var(--line-height-line-height-text-lg) var(--font-family-font-family-text);
+  --typography-typography-links-links-md-regular: var(--font-weight-font-weight-regular) var(--font-size-font-size-links-md)/var(--line-height-line-height-text-md) var(--font-family-font-family-text);
+  --typography-typography-links-links-md-medium: var(--font-weight-font-weight-medium) var(--font-size-font-size-links-md)/var(--line-height-line-height-text-md) var(--font-family-font-family-text);
+  --typography-typography-links-links-md-semibold: var(--font-weight-font-weight-semi-bold) var(--font-size-font-size-links-md)/var(--line-height-line-height-text-md) var(--font-family-font-family-text);
+  --typography-typography-links-links-md-bold: var(--font-weight-font-weight-bold) var(--font-size-font-size-links-md)/var(--line-height-line-height-text-md) var(--font-family-font-family-text);
+  --typography-typography-links-links-sm-regular: var(--font-weight-font-weight-regular) var(--font-size-font-size-links-sm)/var(--line-height-line-height-text-sm) var(--font-family-font-family-text);
+  --typography-typography-links-links-sm-medium: var(--font-weight-font-weight-medium) var(--font-size-font-size-links-sm)/var(--line-height-line-height-text-sm) var(--font-family-font-family-text);
+  --typography-typography-links-links-sm-semibold: var(--font-weight-font-weight-semi-bold) var(--font-size-font-size-links-sm)/var(--line-height-line-height-text-sm) var(--font-family-font-family-text);
+  --typography-typography-links-links-sm-bold: var(--font-weight-font-weight-bold) var(--font-size-font-size-links-sm)/var(--line-height-line-height-text-sm) var(--font-family-font-family-text);
+  --typography-typography-button-regular: var(--font-weight-font-weight-regular) var(--font-size-font-size-button)/var(--line-height-line-height-text-md) var(--font-family-font-family-text);
+  --typography-typography-button-medium: var(--font-weight-font-weight-medium) var(--font-size-font-size-button)/var(--line-height-line-height-text-md) var(--font-family-font-family-text);
+  --typography-typography-button-semibold: var(--font-weight-font-weight-semi-bold) var(--font-size-font-size-button)/var(--line-height-line-height-text-md) var(--font-family-font-family-text);
+  --typography-typography-button-bold: var(--font-weight-font-weight-bold) var(--font-size-font-size-button)/var(--line-height-line-height-text-md) var(--font-family-font-family-text);
+  --typography-typography-labels-regular: var(--font-weight-font-weight-regular) var(--font-size-font-size-label)/var(--line-height-line-height-text-xs) var(--font-family-font-family-text);
+  --typography-typography-labels-medium: var(--font-weight-font-weight-medium) var(--font-size-font-size-label)/var(--line-height-line-height-text-xs) var(--font-family-font-family-text);
+  --typography-typography-labels-semibold: var(--font-weight-font-weight-semi-bold) var(--font-size-font-size-label)/var(--line-height-line-height-text-xs) var(--font-family-font-family-text);
+  --typography-typography-labels-bold: var(--font-weight-font-weight-bold) var(--font-size-font-size-label)/var(--line-height-line-height-text-xs) var(--font-family-font-family-text);
+  --typography-typography-headers-h2-regular: var(--font-weight-font-weight-regular) var(--font-size-font-size-header-2)/var(--line-height-line-height-headers-header-2) var(--font-family-font-family-display);
+  /* testing */
+  --typography-body-font: 400 14px "Inter";
+  --typography-typography-italic: 400 24px/var(--line-height-line-height-text-md) "Inter";
+  --typography-typography-button-italic: 400 14px "Inter";
+  --typography-typography-button3: var(--font-weight-font-weight-italic) 36px var(--string-font-family-font1);
+  --typography-typography-button-inter-italic: 400 36px "Inter";
+  --typography-josefin-italic: 400 48px "Josefin Sans";
+  --typography-inst-test-italic: 400 36px "Instrument Serif";
+  --typography-typography-headers-h1-italic: 400 36px "Iowan Old Style";
+  --typography-test: 400 12px "Inter";
+}

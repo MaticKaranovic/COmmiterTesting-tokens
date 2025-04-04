@@ -1,0 +1,20 @@
+/**
+ * This file was generated automatically by Supernova.io and should not be changed manually.
+ * To modify the format or content of this file, please contact your design system team. 
+ */
+
+.theme-light-a320 {
+  --shadow-shadows-shadow-xs: 0px 1px 2px 0px #0a0d120d;
+  --shadow-shadows-shadow-sm: 0px 1px 2px -1px #0a0d121a, 0px 1px 3px 0px #0a0d121a;
+  --shadow-shadows-shadow-md: 0px 2px 4px -2px #0a0d120f, 0px 4px 6px -1px #0a0d121a;
+  --shadow-shadows-shadow-lg: 0px 2px 2px -1px #0a0d120a, 0px 4px 6px -2px #0a0d1208, 0px 12px 16px -4px #0a0d1214;
+  --shadow-shadows-shadow-xl: 0px 3px 3px -1.5px #0a0d120a, 0px 8px 8px -4px #0a0d1208, 0px 20px 24px -4px #0a0d1214;
+  --shadow-shadows-shadow-2xl: 0px 4px 4px -2px #0a0d120a, 0px 24px 48px -12px #0a0d122e;
+  --shadow-shadows-shadow-3xl: 0px 5px 5px -2.5px #0a0d120a, 0px 32px 64px -12px #0a0d1224;
+  --shadow-shadow-drop-1: 0px 1px 3px 0px #0000004d;
+  --shadow-shadow-inner-1: inset 0px 1px 3px 0px #0000004d;
+  --shadow-shadow-drop-2: 0px 2px 4px 0px #0000001a;
+  --shadow-shadow-drop-3: 0px 3px 6px 0px #00000026;
+  /* For modals, popovers, dropdowns */
+  --shadow-shadow-drop-4: 0px 2px 6px 0px #00000026, 0px 0px 1px 0px #79818f80;
+}

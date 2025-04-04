@@ -4,68 +4,15 @@
  */
 
 :root {
-  --line-height-typography-line-height-8: 8px;
-  --line-height-typography-line-height-12: 12px;
-  --line-height-typography-line-height-16: 16px;
-  --line-height-typography-line-height-20: 20px;
-  --line-height-typography-line-height-24: 24px;
-  --line-height-typography-line-height-28: 28px;
-  --line-height-typography-line-height-32: 32px;
-  --line-height-typography-line-height-36: 36px;
-  --line-height-typography-line-height-40: 40px;
-  --line-height-typography-line-height-44: 44px;
-  --line-height-typography-line-height-48: 48px;
-  --line-height-typography-line-height-56: 56px;
-  --line-height-typography-line-height-68: 68px;
-  --line-height-typography-line-height-88: 88px;
-  --line-height-typography-line-height-96: 96px;
-  --line-height-typography-line-height-120: 120px;
-  --line-height-typography-line-height-152: 152px;
-  /* The button hover state is 105% scale, this replicates the default tokens and some math to achieve scale. */
-  --line-height-typography-line-height-button-sm-label-hovered: 16.8px;
-  /* The button hover state is 105% scale, this replicates the default tokens and some math to achieve scale. */
-  --line-height-typography-line-height-button-md-label-hovered: 16.8px;
-  /* The button hover state is 105% scale, this replicates the default tokens and some math to achieve scale. */
-  --line-height-typography-line-height-button-lg-label-hovered: 21px;
-  /* Display headings use ~1.25 line height (rounded to the nearest 4pt grid number) */
-  --line-height-typography-line-height-display-xsm: var(--line-height-typography-line-height-40);
-  /* Display headings use ~1.25 line height (rounded to the nearest 4pt grid number) */
-  --line-height-typography-line-height-display-sm: var(--line-height-typography-line-height-44);
-  /* Display headings use ~1.25 line height (rounded to the nearest 4pt grid number) */
-  --line-height-typography-line-height-display-md: var(--line-height-typography-line-height-56);
-  /* Display headings use ~1.25 line height (rounded to the nearest 4pt grid number) */
-  --line-height-typography-line-height-display-lg: var(--line-height-typography-line-height-68);
-  /* Display headings use ~1.25 line height (rounded to the nearest 4pt grid number) */
-  --line-height-typography-line-height-display-xlg: var(--line-height-typography-line-height-120);
-  /* Display headings use ~1.25 line height (rounded to the nearest 4pt grid number) */
-  --line-height-typography-line-height-display-xxlg: var(--line-height-typography-line-height-152);
-  /* Headings use ~1.25 line height (rounded to the nearest 4pt grid number) */
-  --line-height-typography-line-height-heading-xsm: var(--line-height-typography-line-height-20);
-  /* Headings use ~1.25 line height (rounded to the nearest 4pt grid number) */
-  --line-height-typography-line-height-heading-sm: var(--line-height-typography-line-height-24);
-  /* Headings use ~1.25 line height (rounded to the nearest 4pt grid number) */
-  --line-height-typography-line-height-heading-md: var(--line-height-typography-line-height-32);
-  /* Headings use ~1.25 line height (rounded to the nearest 4pt grid number) */
-  --line-height-typography-line-height-heading-lg: var(--line-height-typography-line-height-36);
-  /* Headings use ~1.25 line height (rounded to the nearest 4pt grid number) */
-  --line-height-typography-line-height-heading-xlg: var(--line-height-typography-line-height-40);
-  /* Headings use ~1.25 line height (rounded to the nearest 4pt grid number) */
-  --line-height-typography-line-height-heading-xxlg: var(--line-height-typography-line-height-44);
-  /* Body text use ~1.5 line height (rounded to the nearest 4pt grid number), aligning with the WCAG 2.1 accessibillity guidelines. */
-  --line-height-typography-line-height-body-xxxsm: var(--line-height-typography-line-height-8);
-  /* Body text use ~1.5 line height (rounded to the nearest 4pt grid number), aligning with the WCAG 2.1 accessibillity guidelines. */
-  --line-height-typography-line-height-body-xxsm: var(--line-height-typography-line-height-12);
-  /* Body text use ~1.5 line height (rounded to the nearest 4pt grid number), aligning with the WCAG 2.1 accessibillity guidelines. */
-  --line-height-typography-line-height-body-xsm: var(--line-height-typography-line-height-16);
-  /* Body text use ~1.5 line height (rounded to the nearest 4pt grid number), aligning with the WCAG 2.1 accessibillity guidelines. */
-  --line-height-typography-line-height-body-sm: var(--line-height-typography-line-height-20);
-  /* Body text use ~1.5 line height (rounded to the nearest 4pt grid number), aligning with the WCAG 2.1 accessibillity guidelines. */
-  --line-height-typography-line-height-body-md: var(--line-height-typography-line-height-24);
-  /* Body text use ~1.5 line height (rounded to the nearest 4pt grid number), aligning with the WCAG 2.1 accessibillity guidelines. */
-  --line-height-typography-line-height-body-lg: var(--line-height-typography-line-height-28);
-  --line-height-typography-line-height-body-xlg: var(--line-height-typography-line-height-32);
-  /* Body text use ~1.5 line height (rounded to the nearest 4pt grid number), aligning with the WCAG 2.1 accessibillity guidelines. */
-  --line-height-typography-line-height-body-xxlg: var(--line-height-typography-line-height-36);
-  /* Body text use ~1.5 line height (rounded to the nearest 4pt grid number), aligning with the WCAG 2.1 accessibillity guidelines. */
-  --line-height-typography-line-height-body-xxxlg: var(--line-height-typography-line-height-40);
+  --line-height-line-height-text-xs: 18px;
+  --line-height-line-height-text-sm: 20px;
+  --line-height-line-height-text-md: 24px;
+  --line-height-line-height-text-lg: 28px;
+  --line-height-line-height-text-xl: 30px;
+  --line-height-line-height-headers-header-6: 32px;
+  --line-height-line-height-headers-header-5: 38px;
+  --line-height-line-height-headers-header-3: 60px;
+  --line-height-line-height-headers-header-2: 72px;
+  --line-height-line-height-headers-header-1: 90px;
+  --line-height-line-height-headers-testing-scope-nora2: 20px;
 }

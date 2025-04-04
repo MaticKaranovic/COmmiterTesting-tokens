@@ -4,439 +4,83 @@
  */
 
 :root {
-  --color-test-with-matic: #da2a2a33;
-  --color-styles-tokens: #b42828;
-  --color-assets: #fa4949;
-  /* v6.0.0 */
-  --color-color-ptv-yellow-150: #fffbb3;
-  /* v6.0.0 */
-  --color-color-ptv-yellow-250: #fff980;
-  /* v6.0.0 */
-  --color-color-ptv-yellow-350: #fff64d;
-  --color-color-ptv-yellow-450: #fff31a;
-  --color-color-ptv-yellow-500: #fff200;
-  /* v6.0.0 */
-  --color-color-ptv-yellow-550: #e6da00;
-  /* v6.0.0 */
-  --color-color-ptv-yellow-650: #b3a900;
-  /* v6.0.0 */
-  --color-color-ptv-yellow-700: #999100;
-  /* v6.0.0 */
-  --color-color-ptv-purple-150: #d5c2fc;
-  /* v6.0.0 */
-  --color-color-ptv-purple-200: #c7aefb;
-  /* v6.0.0 */
-  --color-color-ptv-purple-300: #ab85f8;
-  /* v6.0.0 */
-  --color-color-ptv-purple-350: #9d71f7;
-  /* v6.0.0 */
-  --color-color-ptv-purple-400: #8f5df6;
-  --color-color-ptv-purple-500: #7334f4;
-  /* v6.0.0 */
-  --color-color-ptv-purple-550: #682fdc;
-  /* v6.0.0 */
-  --color-color-ptv-purple-600: #5c2ac3;
-  /* v6.0.0 */
-  --color-color-ptv-purple-650: #5124ab;
-  /* v6.0.0 */
-  --color-color-ptv-purple-700: #451f92;
-  /* v6.0.0 */
-  --color-color-ptv-purple-850: #221049;
-  /* v6.0.0 */
-  --color-color-ptv-purple-800: #3a1a7a;
-  --color-color-ptv-pink-500: #ef35c7;
-  --color-color-ptv-orange-500: #f8742c;
-  /* Base Token:
-color.white.0 */
-  --color-color-ptv-neutral-0: #ffffff;
-  /* Base Token: 
-color.grey.75 */
-  --color-color-ptv-neutral-75: #efefef;
-  /* Base Token:
-color.grey.250 */
-  --color-color-ptv-neutral-250: #e5e5e5;
-  /* Base Token:
-color.grey.350 */
-  --color-color-ptv-neutral-350: #aaaaaa;
-  /* The Mid-Gray | AA Contrast Restricted, only pairs with Grey 875+ for Reg Text */
-  --color-color-ptv-neutral-500: #808080;
-  /* Base Token: 
-color.grey.600
-
-Use Case:
-Disabled State color for surfaces Grey 850 and lighter */
-  --color-color-ptv-neutral-600: #666666;
-  --color-color-ptv-neutral-725: #393939;
-  /* Base Token:
-color.grey.850 */
-  --color-color-ptv-neutral-850: #1d1d1d;
-  /* Base Token:
-color.grey.875 */
-  --color-color-ptv-neutral-875: #121212;
-  /* Base Token:
-color.grey.925 */
-  --color-color-ptv-neutral-925: #0d0d0d;
-  /* Base Token:
-color.black.1000 */
-  --color-color-ptv-neutral-1000: #000000;
-  /* Base Token: 
-color.red-light.alert */
-  --color-color-ptv-red-300: #e84545;
-  /* Base Token:
-color.red-dark.alert */
-  --color-color-ptv-red-700: #de1c22;
-  /* Base Token: color.green-light.success */
-  --color-color-ptv-green-300: #0e9c0e;
-  /* Base Token: color.green-dark.success */
-  --color-color-ptv-green-700: #0b750b;
-  --color-color-alpha-black-000: #00000000;
-  --color-color-alpha-black-010: #0000001a;
-  --color-color-alpha-black-020: #00000033;
-  --color-color-alpha-black-030: #0000004d;
-  --color-color-alpha-black-040: #00000066;
-  --color-color-alpha-black-050: #00000080;
-  --color-color-alpha-black-060: #00000099;
-  --color-color-alpha-black-070: #000000b2;
-  --color-color-alpha-black-080: #000000cc;
-  --color-color-alpha-black-090: #000000e5;
-  --color-color-alpha-black-100: #000000;
-  --color-color-alpha-white-000: #ffffff00;
-  --color-color-alpha-white-010: #ffffff1a;
-  --color-color-alpha-white-020: #ffffff33;
-  --color-color-alpha-white-030: #ffffff4d;
-  --color-color-alpha-white-040: #ffffff66;
-  --color-color-alpha-white-050: #ffffff80;
-  --color-color-alpha-white-060: #ffffff99;
-  --color-color-alpha-white-070: #ffffffb2;
-  --color-color-alpha-white-080: #ffffffcc;
-  --color-color-alpha-white-090: #ffffffe5;
-  --color-color-alpha-white-100: #ffffff;
-  --color-shadows-2dp-color: #0000001f;
-  --color-shadows-4dp-1-color: #00000024;
-  --color-shadows-4dp-2-color: #0000001a;
-  --color-shadows-8dp-1-color: #0000001f;
-  --color-shadows-8dp-2-color: #00000014;
-  --color-shadows-12dp-1-color: #0000001f;
-  --color-shadows-12dp-2-color: #0000000f;
-  --color-shadows-16dp-1-color: #0000001f;
-  --color-shadows-16dp-2-color: #0000000f;
-  --color-shadows-24dp-1-color: #00000040;
-  --color-color-color: #ffffff;
-  /* Testing */
-  --color-light: #b9fdff;
-  /* Dark */
-  --color-dark: #6490a2;
-  /* Base Token: 
-color.ptv-yellow.500
-v6.0.0
--
-Use Case: 
-Primary Brand Color
-General Mode Primary Color */
-  --color-color-brand-ptv-yellow: var(--color-color-ptv-yellow-500);
-  /* Base Token: 
-color.ptv-purple.500
-v6.0.0
--
-Use Cases: 
-Secondary Brand Color, 
-Kids Mode Primary Color */
-  --color-color-brand-ptv-purple: var(--color-color-ptv-purple-500);
-  /* Base Token: 
-color. ptv-pink.500
--
-Use Cases: 
-Accent Brand Color */
-  --color-color-brand-ptv-pink: var(--color-color-ptv-pink-500);
-  /* Base Token: 
-ptv-orange.500
-v6.0.0
-
-Use Cases: 
-Accent Brand Color */
-  --color-color-brand-ptv-orange: var(--color-color-ptv-orange-500);
-  /* Default foreground color including text and icons. */
-  --color-color-foreground-default: var(--color-color-ptv-neutral-0);
-  --color-color-foreground-secondary: var(--color-color-ptv-neutral-250);
-  /* Muted is used to de-emphasize foreground elements by providing visual contrast. */
-  --color-color-foreground-muted: var(--color-color-ptv-neutral-350);
-  /* Inverse foreground color to paired with inverse background color or comparable background color. */
-  --color-color-foreground-inverse: var(--color-color-ptv-neutral-1000);
-  /* Hyperlink color for web */
-  --color-color-foreground-link: var(--color-color-brand-ptv-yellow);
-  /* Hyperlink color for web */
-  --color-color-foreground-link-inverse: var(--color-color-brand-ptv-purple);
-  /* Use danger for destructive or error messages */
-  --color-color-foreground-danger: var(--color-color-ptv-red-300);
-  /* Use success for successfully completed tasks feedback. */
-  --color-color-foreground-success: var(--color-color-ptv-green-300);
-  /* Use only for elements that have an enabled state. */
-  --color-color-foreground-enabled-primary: var(--color-color-ptv-neutral-0);
-  /* Use only for elements that have an enabled state. */
-  --color-color-foreground-enabled-secondary: var(--color-color-ptv-neutral-75);
-  /* Use only for elements that have an enabled state. */
-  --color-color-foreground-enabled-tertiary: var(--color-color-ptv-neutral-250);
-  /* Use only for elements that have an enabled state. */
-  --color-color-foreground-enabled-quaternary: var(--color-color-ptv-neutral-350);
-  /* Use only for elements that have an enabled state. */
-  --color-color-foreground-enabled-high-contrast: var(--color-color-ptv-neutral-500);
-  /* Disabled Primary is applied to UI assets that are in the disabled state on surfaces Grey 850 or lighter. */
-  --color-color-foreground-disabled-primary: var(--color-color-ptv-neutral-600);
-  /* Disabled Secondary is applied to UI assets that are in the disabled state on surfaces Grey 900 or darker. */
-  --color-color-foreground-disabled-secondary: var(--color-color-ptv-neutral-725);
-  /* Use only for elements that have an focused state. */
-  --color-color-foreground-focused: var(--color-color-brand-ptv-yellow);
-  /* This is a foreground state if focus has a surface fill (i.e., button). The surface will inherit the focus color and this token is the foreground color. */
-  --color-color-foreground-focused-on-fill: var(--color-color-ptv-neutral-1000);
-  /* Use only for elements that have an activated state. */
-  --color-color-foreground-activated: var(--color-color-ptv-neutral-0);
-  /* Use only for elements that have an selected state. */
-  --color-color-foreground-selected: var(--color-color-brand-ptv-yellow);
-  /* Use only for elements that have an hovered state. */
-  --color-color-foreground-hovered-1: var(--color-color-ptv-yellow-150);
-  /* Use only for elements that have an hovered state. */
-  --color-color-foreground-hovered-2: var(--color-color-ptv-yellow-250);
-  /* Use only for elements that have an hovered state. */
-  --color-color-foreground-hovered-3: var(--color-color-ptv-yellow-350);
-  /* Use only for elements that have an hovered state. */
-  --color-color-foreground-hovered-4: var(--color-color-ptv-yellow-550);
-  /* Use only for elements that have an hovered state. */
-  --color-color-foreground-hovered-5: var(--color-color-ptv-yellow-650);
-  /* Use only for elements that have an on state. */
-  --color-color-foreground-on: var(--color-color-foreground-selected);
-  /* Use only for elements that have an off state. */
-  --color-color-foreground-off: var(--color-color-foreground-enabled-primary);
-  /* Default background color */
-  --color-color-background-default: var(--color-color-ptv-neutral-1000);
-  /* alternate background color */
-  --color-color-background-alt: var(--color-color-ptv-neutral-850);
-  /* Muted background color */
-  --color-color-background-muted: var(--color-color-ptv-neutral-250);
-  /* Subtle background color. */
-  --color-color-background-subtle: var(--color-color-ptv-neutral-350);
-  /* Subtle background color. */
-  --color-color-background-subtle-alt: var(--color-color-ptv-neutral-600);
-  /* Inverse background color. Can be paired with Inverse foreground color. */
-  --color-color-background-inverse: var(--color-color-ptv-neutral-0);
-  /* Danger background color can be used for destructive or error states or actions. */
-  --color-color-background-danger: var(--color-color-ptv-red-700);
-  /* Success background color can be used for successfully completed actions. */
-  --color-color-background-success: var(--color-color-ptv-green-700);
-  /* Use for enabled state only. */
-  --color-color-background-enabled: var(--color-color-alpha-black-070);
-  /* Use for hovered state only. */
-  --color-color-background-hovered: var(--color-color-ptv-neutral-850);
-  /* Use for focused state only. */
-  --color-color-background-focused: var(--color-color-brand-ptv-yellow);
-  /* Use for focused activated only. */
-  --color-color-background-activated: var(--color-color-ptv-neutral-725);
-  /* Use for focused state only. */
-  --color-color-background-selected: var(--color-color-brand-ptv-yellow);
-  /* Use for disabled state only. */
-  --color-color-background-disabled: var(--color-color-ptv-neutral-875);
-  --color-color-background-bones: var(--color-color-background-alt);
-  /* Default border color. */
-  --color-color-border-default: var(--color-color-ptv-neutral-350);
-  /* Danger border color can be used for destructive or error states or actions. */
-  --color-color-border-danger: var(--color-color-ptv-red-300);
-  /* Success border color can be used for successfully completed actions. */
-  --color-color-border-success: var(--color-color-ptv-green-300);
-  /* Use for enabled state only. */
-  --color-color-border-enabled: var(--color-color-ptv-neutral-350);
-  /* Use for hovered state only. */
-  --color-color-border-hovered-1: var(--color-color-ptv-yellow-150);
-  /* Use for hovered state only. */
-  --color-color-border-hovered-2: var(--color-color-ptv-yellow-250);
-  /* Use for hovered state only. */
-  --color-color-border-hovered-3: var(--color-color-ptv-yellow-350);
-  /* Use for hovered state only. */
-  --color-color-border-hovered-4: var(--color-color-ptv-yellow-550);
-  /* Use for hovered state only. */
-  --color-color-border-hovered-5: var(--color-color-ptv-yellow-650);
-  /* Use for focused state only. */
-  --color-color-border-focused: var(--color-color-brand-ptv-yellow);
-  /* Use for selected state only. */
-  --color-color-border-selected: var(--color-color-brand-ptv-yellow);
-  /* Use for activated state only. */
-  --color-color-border-activated: var(--color-color-ptv-neutral-0);
-  /* Use for disabled state only. */
-  --color-color-border-disabled: var(--color-color-ptv-neutral-600);
-  --color-color-badge-base-light-text-foreground: var(--color-color-foreground-inverse);
-  --color-color-badge-base-light-alt-text-foreground: var(--color-color-ptv-purple-700);
-  --color-color-badge-base-light-live-indicator-foreground: var(--color-color-foreground-danger);
-  --color-color-badge-base-light-background: var(--color-color-background-inverse);
-  --color-color-badge-base-light-border: var(--color-color-ptv-neutral-250);
-  --color-color-badge-base-danger-foreground: var(--color-color-foreground-default);
-  --color-color-badge-base-danger-background: var(--color-color-background-danger);
-  --color-color-badge-a11y-foreground: var(--color-color-foreground-muted);
-  --color-color-badge-a11y-background: var(--color-color-ptv-neutral-725);
-  --color-color-badge-advisory-us-foreground: var(--color-color-foreground-default);
-  /* Use for foreground enabled (text, icons, etc.) */
-  --color-color-button-standard-fill-foreground-enabled: var(--color-color-foreground-enabled-quaternary);
-  --color-color-button-standard-fill-foreground-hovered: var(--color-color-ptv-neutral-250);
-  --color-color-button-standard-fill-foreground-focused: var(--color-color-foreground-focused-on-fill);
-  --color-color-button-standard-fill-foreground-activated: var(--color-color-foreground-activated);
-  --color-color-button-standard-fill-foreground-disabled: var(--color-color-foreground-disabled-primary);
-  --color-color-button-standard-fill-background-enabled: var(--color-color-background-enabled);
-  --color-color-button-standard-fill-background-hovered: var(--color-color-ptv-neutral-725);
-  --color-color-button-standard-fill-background-focused: var(--color-color-background-focused);
-  --color-color-button-standard-fill-background-activated: var(--color-color-background-activated);
-  --color-color-button-standard-fill-background-disabled: var(--color-color-foreground-disabled-secondary);
-  --color-color-button-standard-outline-foreground-enabled: var(--color-color-foreground-enabled-quaternary);
-  --color-color-button-standard-outline-foreground-hovered: var(--color-color-ptv-neutral-250);
-  --color-color-button-standard-outline-foreground-activated: var(--color-color-foreground-activated);
-  --color-color-button-standard-outline-foreground-disabled: var(--color-color-foreground-disabled-primary);
-  --color-color-button-standard-outline-background-enabled: var(--color-color-background-enabled);
-  --color-color-button-standard-outline-background-hovered: var(--color-color-ptv-neutral-850);
-  --color-color-button-standard-outline-background-activated: var(--color-color-background-activated);
-  --color-color-button-standard-outline-background-disabled: var(--color-color-foreground-disabled-secondary);
-  --color-color-button-standard-outline-border-enabled: var(--color-color-border-enabled);
-  --color-color-button-standard-outline-border-hovered: var(--color-color-ptv-neutral-250);
-  --color-color-button-standard-outline-border-activated: var(--color-color-border-activated);
-  --color-color-button-standard-outline-border-disabled: var(--color-color-border-disabled);
-  --color-color-button-standard-ghost-foreground-enabled: var(--color-color-foreground-enabled-quaternary);
-  --color-color-button-standard-ghost-foreground-hovered: var(--color-color-ptv-neutral-250);
-  --color-color-button-standard-ghost-foreground-activated: var(--color-color-foreground-activated);
-  --color-color-button-standard-ghost-foreground-disabled: var(--color-color-foreground-disabled-primary);
-  --color-color-button-standard-ghost-background-hovered: var(--color-color-background-hovered);
-  --color-color-button-standard-ghost-border-enabled: var(--color-color-border-enabled);
-  --color-color-button-standard-ghost-border-hovered: var(--color-color-ptv-neutral-250);
-  --color-color-button-standard-ghost-border-activated: var(--color-color-border-activated);
-  --color-color-button-standard-ghost-border-disabled: var(--color-color-border-disabled);
-  --color-color-button-standard-text-foreground-enabled: var(--color-color-foreground-enabled-quaternary);
-  --color-color-button-standard-text-foreground-focused: var(--color-color-foreground-focused);
-  --color-color-button-standard-text-foreground-hovered: var(--color-color-ptv-neutral-250);
-  --color-color-button-standard-text-foreground-activated: var(--color-color-foreground-activated);
-  --color-color-button-standard-text-foreground-disabled: var(--color-color-foreground-disabled-primary);
-  --color-color-button-standard-text-background-hovered: var(--color-color-background-hovered);
-  --color-color-button-destructive-fill-foreground-enabled: var(--color-color-foreground-enabled-quaternary);
-  --color-color-button-destructive-fill-foreground-hovered: var(--color-color-ptv-neutral-250);
-  --color-color-button-destructive-fill-foreground-focused: var(--color-color-ptv-neutral-0);
-  --color-color-button-destructive-fill-foreground-activated: var(--color-color-foreground-activated);
-  --color-color-button-destructive-fill-background-enabled: var(--color-color-background-enabled);
-  --color-color-button-destructive-fill-background-hovered: var(--color-color-ptv-neutral-725);
-  --color-color-button-destructive-fill-background-focused: var(--color-color-background-danger);
-  --color-color-button-destructive-fill-background-activated: var(--color-color-background-activated);
-  --color-color-button-destructive-text-foreground-enabled: var(--color-color-foreground-enabled-quaternary);
-  --color-color-button-destructive-text-foreground-focused: var(--color-color-foreground-danger);
-  --color-color-button-marketing-fill-foreground-enabled: var(--color-color-foreground-enabled-quaternary);
-  --color-color-button-marketing-fill-foreground-hovered: var(--color-color-ptv-neutral-250);
-  --color-color-button-marketing-fill-foreground-focused: var(--color-color-ptv-neutral-0);
-  --color-color-button-marketing-fill-foreground-activated: var(--color-color-foreground-activated);
-  --color-color-button-marketing-fill-background-enabled: var(--color-color-background-enabled);
-  --color-color-button-marketing-fill-background-hovered: var(--color-color-ptv-neutral-725);
-  --color-color-button-marketing-fill-background-focused: var(--color-color-brand-ptv-purple);
-  --color-color-button-marketing-fill-background-activated: var(--color-color-background-activated);
-  --color-color-button-marketing-text-foreground-enabled: var(--color-color-foreground-enabled-quaternary);
-  --color-color-button-marketing-text-foreground-focused: var(--color-color-brand-ptv-purple);
-  --color-color-button-standard-bones-foreground: var(--color-color-background-bones);
-  --color-color-button-standard-bones-background: var(--color-color-background-bones);
-  --color-color-button-progress-foreground: var(--color-color-foreground-inverse);
-  --color-color-button-progress-surface-background: var(--color-color-ptv-yellow-250);
-  --color-color-button-progress-fill-background: var(--color-color-background-focused);
-  --color-color-button-endcard-banner-foreground: var(--color-color-foreground-inverse);
-  --color-color-card-base-bottom-elements-foreground-gradient-stop-1: var(--color-color-alpha-black-000);
-  --color-color-card-base-bottom-elements-foreground-gradient-stop-2: var(--color-color-alpha-black-050);
-  --color-color-button-endcard-banner-surface-background: var(--color-color-ptv-yellow-250);
-  --color-color-button-endcard-banner-fill-background: var(--color-color-background-focused);
-  --color-color-card-base-foreground-enabled: var(--color-color-foreground-enabled-primary);
-  --color-color-card-base-foreground-selected: var(--color-color-foreground-inverse);
-  --color-color-card-base-selected-overlay-foreground: var(--color-color-alpha-black-040);
-  --color-color-card-base-background-selected: var(--color-color-background-selected);
-  --color-color-card-cta-foreground: var(--color-color-foreground-muted);
-  --color-color-card-cta-background: var(--color-color-ptv-neutral-875);
-  /* Synopsis focused background */
-  --color-color-card-episode-list-background-focused: var(--color-color-ptv-neutral-500);
-  --color-color-carousel-row-heading-enabled: var(--color-color-foreground-enabled-primary);
-  --color-color-carousel-row-fade-start-gradient-stop-1: var(--color-color-alpha-black-100);
-  --color-color-carousel-row-fade-start-gradient-stop-2: var(--color-color-alpha-black-000);
-  --color-color-carousel-row-heading-focused: var(--color-color-foreground-focused);
-  --color-color-carousel-row-heading-hovered: var(--color-color-foreground-hovered-2);
-  --color-color-carousel-hero-title-foreground: var(--color-color-foreground-default);
-  --color-color-carousel-hero-tagline-foreground: var(--color-color-foreground-default);
-  --color-color-carousel-hero-actor-foreground: var(--color-color-foreground-default);
-  --color-color-carousel-hero-synopsis-foreground: var(--color-color-foreground-default);
-  --color-color-carousel-hero-data-foreground: var(--color-color-foreground-muted);
-  --color-color-carousel-hero-data-foreground-alt: var(--color-color-foreground-default);
-  --color-color-carousel-hero-locked-content-foreground: var(--color-color-foreground-default);
-  --color-color-carousel-hero-bones-foreground: var(--color-color-background-bones);
-  --color-color-checkbox-foreground: var(--color-color-foreground-inverse);
-  --color-color-checkbox-background-enabled: var(--color-color-background-selected);
-  --color-color-checkbox-background-hovered: var(--color-color-foreground-hovered-2);
-  --color-color-checkbox-background-focused: var(--color-color-background-selected);
-  --color-color-checkbox-background-disabled: var(--color-color-foreground-disabled-primary);
-  --color-color-checkbox-border-hovered: var(--color-color-border-hovered-2);
-  --color-color-checkbox-border-focused: var(--color-color-border-focused);
-  --color-color-checkbox-unselected-sm-border-focused: var(--color-color-border-enabled);
-  --color-color-checkbox-border-disabled: var(--color-color-border-disabled);
-  --color-color-checkbox-unselected-border-enabled: var(--color-color-border-enabled);
-  --color-color-checkbox-selected-border-enabled: var(--color-color-border-selected);
-  --color-color-checkbox-indeterminate-border-enabled: var(--color-color-border-selected);
-  --color-color-form-feedback-foreground: var(--color-color-foreground-default);
-  --color-color-input-label-foreground-enabled: var(--color-color-ptv-neutral-350);
-  --color-color-input-label-foreground-focused: var(--color-color-ptv-neutral-0);
-  --color-color-input-label-foreground-disabled: var(--color-color-foreground-disabled-primary);
-  --color-color-input-label-foreground-error: var(--color-color-foreground-danger);
-  --color-color-input-form-control-background-focused: var(--color-color-ptv-neutral-725);
-  --color-color-input-form-control-background-disabled: var(--color-color-background-disabled);
-  --color-color-input-form-control-border-enabled: var(--color-color-border-enabled);
-  --color-color-input-form-control-border-focused: var(--color-color-border-focused);
-  --color-color-input-form-control-border-focused-periphery: var(--color-color-ptv-neutral-0);
-  --color-color-input-form-control-border-error: var(--color-color-border-danger);
-  --color-color-input-form-control-border-disabled: var(--color-color-border-disabled);
-  --color-color-input-form-control-value-foreground-enabled: var(--color-color-foreground-enabled-quaternary);
-  --color-color-input-form-control-value-foreground-focused: var(--color-color-ptv-neutral-0);
-  --color-color-input-form-control-value-foreground-disabled: var(--color-color-foreground-disabled-primary);
-  --color-color-input-placeholder-foreground-enabled: var(--color-color-foreground-enabled-quaternary);
-  --color-color-input-placeholder-foreground-focused: var(--color-color-ptv-neutral-0);
-  --color-color-input-icon-foreground-enabled: var(--color-color-foreground-enabled-quaternary);
-  --color-color-input-hint-foreground-enabled: var(--color-color-foreground-enabled-quaternary);
-  --color-color-input-hint-foreground-error: var(--color-color-foreground-danger);
-  --color-color-input-icon-foreground-activated: var(--color-color-foreground-activated);
-  --color-color-input-icon-foreground-focused: var(--color-color-ptv-neutral-0);
-  --color-color-form-feedback-error-background: var(--color-color-background-danger);
-  --color-color-form-feedback-success-background: var(--color-color-background-success);
-  --color-color-form-feedback-loading-background: var(--color-color-background-alt);
-  --color-color-label-text-foreground-default: var(--color-color-foreground-default);
-  --color-color-label-text-foreground-disabled: var(--color-color-foreground-disabled-primary);
-  --color-color-outline-border-selected: var(--color-color-border-selected);
-  --color-color-outline-border-focused: var(--color-color-border-focused);
-  --color-color-outline-border-hovered: var(--color-color-border-hovered-3);
-  --color-color-page-control-foreground-inactive: var(--color-color-foreground-enabled-quaternary);
-  --color-color-page-control-foreground-active: var(--color-color-foreground-activated);
-  --color-color-progress-bar-track-background: var(--color-color-ptv-neutral-725);
-  --color-color-progress-bar-fill-foreground: var(--color-color-foreground-default);
-  --color-color-progress-bar-text-foreground: var(--color-color-foreground-secondary);
-  --color-color-qr-code-background: var(--color-color-background-inverse);
-  --color-color-radio-foreground: var(--color-color-foreground-inverse);
-  --color-color-radio-background-enabled: var(--color-color-background-selected);
-  --color-color-radio-background-hovered: var(--color-color-foreground-hovered-2);
-  --color-color-radio-background-focused: var(--color-color-background-selected);
-  --color-color-radio-background-disabled: var(--color-color-foreground-disabled-primary);
-  --color-color-radio-border-hovered: var(--color-color-border-hovered-2);
-  --color-color-radio-border-focused: var(--color-color-border-focused);
-  --color-color-radio-unselected-border-enabled: var(--color-color-border-enabled);
-  --color-color-radio-selected-border-enabled: var(--color-color-border-selected);
-  --color-color-radio-unselected-sm-border-focused: var(--color-color-border-enabled);
-  --color-color-radio-border-disabled: var(--color-color-border-disabled);
-  --color-color-tabs-item-text-foreground-enabled: var(--color-color-foreground-enabled-high-contrast);
-  --color-color-tabs-item-text-foreground-focused: var(--color-color-ptv-neutral-0);
-  --color-color-tabs-item-text-foreground-activated: var(--color-color-ptv-neutral-0);
-  --color-color-tabs-item-indicator-border-focused: var(--color-color-border-focused);
-  --color-color-tabs-item-indicator-foreground-activated: var(--color-color-border-activated);
-  --color-color-toggle-knob-off-foreground: var(--color-color-foreground-off);
-  --color-color-toggle-knob-on-foreground: var(--color-color-foreground-on);
-  --color-color-toggle-track-background: var(--color-color-background-subtle-alt);
-  --color-color-toggle-action-text-foreground: var(--color-color-foreground-default);
-  --color-color-tooltip-text-foreground: var(--color-color-foreground-inverse);
-  --color-color-tooltip-link-foreground: var(--color-color-foreground-link-inverse);
-  --color-color-tooltip-close-icon-foreground: var(--color-color-foreground-enabled-high-contrast);
-  --color-color-tooltip-background: var(--color-color-background-inverse);
-  --color-color-carousel-hero-gradient-overlay-foreground-gradient-stop-1: var(--color-color-alpha-black-100);
-  --color-color-carousel-hero-sm-background: var(--color-color-background-default);
-  --color-color-carousel-hero-gradient-overlay-foreground-gradient-stop-2: var(--color-color-alpha-black-080);
-  --color-color-carousel-hero-gradient-overlay-foreground-gradient-stop-3: var(--color-color-alpha-black-040);
-  --color-color-carousel-hero-gradient-overlay-foreground-gradient-stop-4: var(--color-color-alpha-black-000);
-  --color-color-carousel-row-fade-stop-gradient-stop-1: var(--color-color-alpha-black-000);
-  --color-color-carousel-row-fade-stop-gradient-stop-2: var(--color-color-alpha-black-100);
+  --color-background-background: #ff3737;
+  --color-surface-surface-primary: #badaf7;
+  --color-surface-surface-secondary: #f6f4ffb0;
+  --color-surface-surface-neutral: #f1f2f3;
+  --color-surface-surface-neutral-2: #fafafa;
+  --color-surface-on-surface: #151619;
+  --color-background-on-background: #082845;
+  --color-primary-default: #5fa9ed;
+  --color-primary-on-primary: #082845;
+  --color-secondary-default: #8770dc;
+  --color-secondary-on-secondary: #151619;
+  --color-feedback-succes-default: #44d487;
+  --color-feedback-succes-on-sucess: #05150c;
+  --color-feedback-medium-default: #feb91b;
+  --color-feedback-medium-on-medium: #191200;
+  --color-feedback-error-default: #f26359;
+  --color-feedback-error-on-error: #180302;
+  --color-feedback-inactive-default: #f1f2f3;
+  --color-feedback-inactive-on-inactive: #c5c7ce;
+  --color-buttons-button-tertiary: #ffffff;
+  --color-buttons-button-blur: #a9adb773;
+  --color-borders-border: #5b5f6c;
+  --color-utility-utility-gray-iron: #a1a1aa;
+  --color-neutrals-09: #151619;
+  --color-neutrals-19: #2c2e34;
+  --color-neutrals-29: #444750;
+  --color-neutrals-39: #5b5f6c;
+  --color-neutrals-49: #737887;
+  --color-neutrals-59: #8e929f;
+  --color-neutrals-69: #a9adb7;
+  --color-neutrals-79: #c5c7ce;
+  --color-neutrals-89: #e1e2e5;
+  --color-neutrals-95: #f1f2f3;
+  --color-neutrals-97: #f7f7f8;
+  --color-neutrals-99: #fcfcfd;
+  --color-neutrals-100: #ffffff;
+  --color-utility-utility-green: #9de963;
+  --color-utility-utility-teal: #5fecd7;
+  --color-utility-utility-blue: #50a2fb;
+  --color-utility-utility-violet: #7454f8;
+  --color-utility-utility-fuchsia: #f05bc4;
+  --color-utility-utility-orange: #f38e58;
+  --color-utility-utility-yellow: #f9c953;
+  --color-utility-on-utility-on-gray-iron: #d7d7db;
+  --color-utility-on-utility-on-green: #d5f5bc;
+  --color-utility-on-utility-on-teal: #baf7ee;
+  --color-utility-on-utility-on-blue: #b4d7fd;
+  --color-utility-on-utility-on-violet: #c4b6fc;
+  --color-utility-on-utility-on-fuchsia: #f9b9e6;
+  --color-utility-on-utility-on-orange: #facfb7;
+  --color-utility-on-utility-on-yellow: #fce8b5;
+  --color-buttons-on-button-blur: #ffffff;
+  --color-color-styles-primary-grey: #d9d9d9;
+  --color-color-styles-primary-red: #ff0000;
+  --color-color-styles-primary-blue: #2441aa;
+  --color-components-linear-gray-blue-50: #7077c2;
+  --color-components-linear-gray-blue-60: #1d68d9;
+  --color-components-linear-gray-blue-70: #1029b4;
+  --color-main-component-web-cover-test-themes: #b24343;
+  --color-components-buttons-linear-gray-blue-50: #7077c2;
+  --color-components-buttons-linear-gray-blue-60: #1d68d9;
+  --color-components-buttons-linear-gray-blue-70: #1029b4;
+  --color-components-buttons-primary-linear-gray-blue-50: #7077c2;
+  --color-components-buttons-primary-linear-gray-blue-60: #1d68d9;
+  --color-components-buttons-primary-linear-gray-blue-70: #1029b4;
+  --color-components-widgets-linear-gray-blue-50: #7077c2;
+  --color-components-widgets-linear-gray-blue-60: #1d68d9;
+  --color-components-widgets-linear-gray-blue-70: #1029b4;
+  --color-background-background-test1: #ff3737;
+  --color-background-background-test2: #d33d3d;
+  /* testing */
+  --color-color-styles-primary-grey: #d9d9d9;
+  --color-testing-a-name-like-this: #ffffff;
+  --color-color-primary-test-color-2: #ffffff;
+  --color-aaaacolor: #fdff83;
+  --color-cli-gh-action-test: #902121;
+  --color-cli-test-gh-action-2: #d66a6a;
+  --color-aaa-testing-commiter: #b71d1d;
+  --color-color-primary-test-color: var(--color-background-background-test1);
 }

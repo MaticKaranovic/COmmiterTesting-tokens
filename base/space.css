@@ -4,182 +4,21 @@
  */
 
 :root {
-  --space-spacing-2: 2px;
-  --space-spacing-4: 4px;
-  --space-spacing-8: 8px;
-  --space-spacing-12: 12px;
-  --space-spacing-16: 16px;
-  --space-spacing-20: 20px;
-  --space-spacing-24: 24px;
-  --space-spacing-28: 28px;
-  --space-spacing-32: 32px;
-  --space-spacing-40: 40px;
-  --space-spacing-48: 48px;
-  --space-spacing-56: 56px;
-  --space-spacing-64: 64px;
-  --space-spacing-72: 72px;
-  --space-spacing-80: 80px;
-  --space-spacing-96: 96px;
-  --space-spacing-112: 112px;
-  --space-spacing-128: 128px;
-  --space-spacing-144: 144px;
-  --space-spacing-160: 160px;
-  --space-spacing-176: 176px;
-  --space-spacing-192: 192px;
-  --space-spacing-button-pill-sm-hovered-gap: 8.4px;
-  --space-spacing-button-pill-sm-hovered-x-padding: 16.8px;
-  --space-spacing-button-pill-sm-hovered-y-padding: 8.4px;
-  --space-spacing-button-pill-md-default-y-padding: 10px;
-  --space-spacing-button-pill-md-hovered-gap: 8.4px;
-  --space-spacing-button-pill-md-hovered-x-padding: 21px;
-  --space-spacing-button-pill-md-hovered-y-padding: 10.5px;
-  --space-spacing-button-pill-lg-hovered-gap: 12.6px;
-  --space-spacing-button-pill-lg-hovered-x-padding: 25.2px;
-  --space-spacing-button-pill-lg-hovered-y-padding: 8.4px;
-  --space-spacing-carousel-hero-base-x-padding: 120px;
-  /* Gap spacing between elements inside a component (e.g., space between text label and icon in button). */
-  --space-spacing-gap-2: var(--space-spacing-2);
-  /* Gap spacing between elements inside a component (e.g., space between text label and icon in button). */
-  --space-spacing-gap-4: var(--space-spacing-4);
-  /* Gap spacing between elements inside a component (e.g., space between text label and icon in button). */
-  --space-spacing-gap-8: var(--space-spacing-8);
-  /* Gap spacing between elements inside a component (e.g., space between text label and icon in button). */
-  --space-spacing-gap-12: var(--space-spacing-12);
-  /* Gap spacing between elements inside a component (e.g., space between text label and icon in button). */
-  --space-spacing-gap-16: var(--space-spacing-16);
-  /* Gap spacing between elements inside a component (e.g., space between text label and icon in button). */
-  --space-spacing-gap-20: var(--space-spacing-20);
-  /* Gap spacing between elements inside a component (e.g., space between text label and icon in button). */
-  --space-spacing-gap-24: var(--space-spacing-24);
-  /* Gap spacing between elements inside a component (e.g., space between text label and icon in button). */
-  --space-spacing-gap-32: var(--space-spacing-32);
-  /* Gap spacing between elements inside a component (e.g., space between text label and icon in button). */
-  --space-spacing-gap-48: var(--space-spacing-48);
-  /* Gap spacing between elements inside a component (e.g., space between text label and icon in button). */
-  --space-spacing-gap-56: var(--space-spacing-56);
-  /* Used for horizontal and vertical padding on elements. */
-  --space-spacing-padding-2: var(--space-spacing-2);
-  /* Used for horizontal and vertical padding on elements. */
-  --space-spacing-padding-4: var(--space-spacing-4);
-  /* Used for horizontal and vertical padding on elements. */
-  --space-spacing-padding-8: var(--space-spacing-8);
-  /* Used for horizontal and vertical padding on elements. */
-  --space-spacing-padding-12: var(--space-spacing-12);
-  /* Used for horizontal and vertical padding on elements. */
-  --space-spacing-padding-16: var(--space-spacing-16);
-  /* Used for horizontal and vertical padding on elements. */
-  --space-spacing-padding-20: var(--space-spacing-20);
-  /* Used for horizontal and vertical padding on elements. */
-  --space-spacing-padding-24: var(--space-spacing-24);
-  /* Used for horizontal and vertical padding on elements. */
-  --space-spacing-padding-32: var(--space-spacing-32);
-  /* Used for horizontal and vertical padding on elements. */
-  --space-spacing-padding-48: var(--space-spacing-48);
-  /* Used for horizontal and vertical padding on elements. */
-  --space-spacing-padding-80: var(--space-spacing-80);
-  --space-spacing-badge-base-sm-gap: var(--space-spacing-gap-4);
-  --space-spacing-badge-base-sm-x-padding: var(--space-spacing-padding-4);
-  --space-spacing-badge-base-sm-y-padding: var(--space-spacing-padding-4);
-  --space-spacing-badge-base-md-gap: var(--space-spacing-gap-4);
-  --space-spacing-badge-base-md-x-padding: var(--space-spacing-padding-8);
-  --space-spacing-badge-base-md-y-padding: var(--space-spacing-padding-4);
-  --space-spacing-badge-base-lg-gap: var(--space-spacing-gap-8);
-  --space-spacing-badge-base-lg-x-padding: var(--space-spacing-padding-12);
-  --space-spacing-badge-base-lg-y-padding: var(--space-spacing-padding-4);
-  --space-spacing-badge-a11y-xsm-x-padding: var(--space-spacing-padding-2);
-  --space-spacing-badge-a11y-sm-x-padding: var(--space-spacing-padding-4);
-  --space-spacing-badge-a11y-md-x-padding: var(--space-spacing-padding-4);
-  --space-spacing-badge-a11y-lg-x-padding: var(--space-spacing-padding-8);
-  --space-spacing-button-pill-sm-default-gap: var(--space-spacing-gap-8);
-  --space-spacing-button-pill-sm-default-x-padding: var(--space-spacing-padding-16);
-  --space-spacing-button-pill-sm-default-y-padding: var(--space-spacing-padding-8);
-  --space-spacing-button-pill-md-default-gap: var(--space-spacing-gap-8);
-  --space-spacing-button-pill-md-default-x-padding: var(--space-spacing-padding-20);
-  --space-spacing-button-pill-lg-default-gap: var(--space-spacing-gap-12);
-  --space-spacing-button-pill-lg-default-x-padding: var(--space-spacing-padding-24);
-  --space-spacing-button-pill-lg-default-y-padding: var(--space-spacing-padding-8);
-  --space-spacing-button-pill-xlg-default-gap: var(--space-spacing-gap-16);
-  --space-spacing-button-pill-xlg-default-x-padding: var(--space-spacing-padding-32);
-  --space-spacing-button-pill-xlg-default-y-padding: var(--space-spacing-padding-16);
-  --space-spacing-button-circle-gap: var(--space-spacing-gap-4);
-  --space-spacing-button-progress-container-gap: var(--space-spacing-gap-2);
-  --space-spacing-button-progress-lead-container-sm-gap: var(--space-spacing-gap-8);
-  --space-spacing-button-progress-lead-container-sm-x-padding: var(--space-spacing-padding-16);
-  --space-spacing-button-progress-trailing-container-sm-x-padding: var(--space-spacing-padding-8);
-  --space-spacing-button-progress-lead-container-lg-gap: var(--space-spacing-gap-8);
-  --space-spacing-button-progress-lead-container-lg-x-padding: var(--space-spacing-padding-20);
-  --space-spacing-button-progress-trailing-container-lg-x-padding: var(--space-spacing-padding-12);
-  --space-spacing-button-endcard-banner-gap: var(--space-spacing-gap-8);
-  --space-spacing-button-group-normal-gap: var(--space-spacing-gap-20);
-  --space-spacing-button-group-dense-gap: var(--space-spacing-gap-12);
-  --space-spacing-card-base-top-container-sm-padding: var(--space-spacing-padding-4);
-  --space-spacing-card-base-bottom-elements-sm-gap: var(--space-spacing-gap-8);
-  --space-spacing-card-base-meta-container-sm-gap: var(--space-spacing-padding-4);
-  --space-spacing-card-base-meta-container-sm-y-padding: var(--space-spacing-padding-8);
-  --space-spacing-card-base-meta-container-tertiary-data-sm-gap: var(--space-spacing-padding-8);
-  --space-spacing-card-base-bottom-elements-sm-x-padding: var(--space-spacing-padding-8);
-  --space-spacing-card-base-bottom-elements-sm-top-padding: var(--space-spacing-padding-16);
-  --space-spacing-card-base-bottom-elements-sm-bottom-padding: var(--space-spacing-padding-8);
-  --space-spacing-card-cta-sm-gap: var(--space-spacing-gap-4);
-  --space-spacing-card-cta-lg-gap: var(--space-spacing-gap-12);
-  --space-spacing-carousel-row-base-sm-gap: var(--space-spacing-gap-16);
-  --space-spacing-carousel-row-ctv-gap: var(--space-spacing-gap-24);
-  --space-spacing-carousel-row-ctv-x-padding: var(--space-spacing-padding-48);
-  --space-spacing-carousel-row-ctv-episode-list-item-gap: var(--space-spacing-gap-20);
-  --space-spacing-carousel-row-ctv-episode-list-item-left-padding: var(--space-spacing-padding-32);
-  --space-spacing-carousel-row-ctv-episode-list-item-heading-gap: var(--space-spacing-gap-12);
-  --space-spacing-carousel-row-ctv-episode-list-gap: var(--space-spacing-gap-56);
-  --space-spacing-carousel-row-web-row-heading-gap: var(--space-spacing-gap-4);
-  --space-spacing-carousel-hero-base-bottom-padding: var(--space-spacing-padding-80);
-  --space-spacing-carousel-hero-data-sm-x-gap: var(--space-spacing-gap-12);
-  --space-spacing-carousel-hero-data-sm-y-gap: var(--space-spacing-gap-4);
-  --space-spacing-carousel-hero-data-lg-x-gap: var(--space-spacing-gap-20);
-  --space-spacing-carousel-hero-data-lg-y-gap: var(--space-spacing-gap-8);
-  --space-spacing-carousel-row-web-gap: var(--space-spacing-gap-16);
-  --space-spacing-carousel-row-web-x-padding: var(--space-spacing-padding-32);
-  --space-spacing-checkbox-sm-gap: var(--space-spacing-gap-8);
-  --space-spacing-checkbox-lg-gap: var(--space-spacing-gap-16);
-  --space-spacing-form-feedback-gap: var(--space-spacing-gap-8);
-  --space-spacing-input-form-control-gap: var(--space-spacing-gap-8);
-  --space-spacing-input-gap: var(--space-spacing-gap-8);
-  --space-spacing-input-form-control-x-padding: var(--space-spacing-padding-24);
-  --space-spacing-input-form-control-y-padding: var(--space-spacing-padding-16);
-  --space-spacing-form-feedback-x-padding: var(--space-spacing-padding-16);
-  --space-spacing-form-feedback-y-padding: var(--space-spacing-padding-8);
-  --space-spacing-page-control-gap: var(--space-spacing-gap-8);
-  --space-spacing-progress-bar-gap: var(--space-spacing-gap-8);
-  --space-spacing-radio-sm-gap: var(--space-spacing-gap-8);
-  --space-spacing-radio-lg-gap: var(--space-spacing-gap-16);
-  --space-spacing-tabs-item-sm-top-padding: var(--space-spacing-padding-8);
-  --space-spacing-tabs-item-md-top-padding: var(--space-spacing-padding-12);
-  --space-spacing-tabs-gap: var(--space-spacing-gap-48);
-  --space-spacing-toggle-sm-gap: var(--space-spacing-gap-8);
-  --space-spacing-toggle-lg-gap: var(--space-spacing-gap-12);
-  --space-spacing-tooltip-gap: var(--space-spacing-gap-8);
-  --space-spacing-tooltip-x-padding: var(--space-spacing-padding-16);
-  --space-spacing-tooltip-y-padding: var(--space-spacing-padding-8);
-  --space-spacing-card-base-top-container-lg-padding: var(--space-spacing-padding-8);
-  --space-spacing-card-base-bottom-elements-lg-gap: var(--space-spacing-gap-16);
-  --space-spacing-card-base-meta-container-lg-gap: var(--space-spacing-padding-8);
-  --space-spacing-card-base-meta-container-lg-top-padding: var(--space-spacing-padding-12);
-  --space-spacing-card-base-meta-container-lg-bottom-padding: var(--space-spacing-padding-8);
-  --space-spacing-card-base-meta-container-tertiary-data-lg-x-gap: var(--space-spacing-padding-16);
-  --space-spacing-card-base-meta-container-tertiary-data-lg-y-gap: var(--space-spacing-padding-12);
-  --space-spacing-card-base-bottom-elements-lg-x-padding: var(--space-spacing-padding-16);
-  --space-spacing-card-base-bottom-elements-lg-top-padding: var(--space-spacing-padding-32);
-  --space-spacing-card-base-bottom-elements-lg-bottom-padding: var(--space-spacing-padding-16);
-  --space-spacing-carousel-row-smd-gap: var(--space-spacing-gap-16);
-  --space-spacing-carousel-row-smd-x-padding: var(--space-spacing-padding-16);
-  --space-spacing-carousel-row-base-lg-gap: var(--space-spacing-gap-32);
-  --space-spacing-carousel-hero-locked-content-gap: var(--space-spacing-gap-8);
-  --space-spacing-carousel-hero-block-sm-gap: var(--space-spacing-gap-16);
-  --space-spacing-carousel-hero-block-lg-gap: var(--space-spacing-gap-24);
-  --space-spacing-carousel-hero-block-sm-x-padding: var(--space-spacing-padding-16);
-  --space-spacing-carousel-hero-block-bones-sm-gap: var(--space-spacing-gap-20);
-  --space-spacing-carousel-hero-block-bones-sm-x-padding: var(--space-spacing-padding-16);
-  --space-spacing-carousel-hero-block-bones-lg-gap: var(--space-spacing-gap-48);
-  --space-spacing-carousel-hero-block-bones-lg-y-padding: var(--space-spacing-gap-24);
-  --space-spacing-input-hint-gap: var(--space-spacing-gap-8);
-  --space-spacing-input-hint-x-padding: var(--space-spacing-padding-24);
-  --space-spacing-tabs-item-lg-top-padding: var(--space-spacing-padding-16);
+  --space-spacing-none-0: 0px;
+  --space-spacing-xxs-2: 2px;
+  --space-spacing-xs-4: 4px;
+  --space-spacing-sm-6: 6px;
+  --space-spacing-md-8: 8px;
+  --space-spacing-lg-12: 12px;
+  --space-spacing-xl-16: 16px;
+  --space-spacing-2xl-20: 20px;
+  --space-spacing-3xl-24: 24px;
+  --space-spacing-4xl-32: 32px;
+  --space-spacing-5xl-40: 40px;
+  --space-spacing-6xl-48: 48px;
+  --space-spacing-7xl-64: 64px;
+  --space-spacing-8xl-80: 80px;
+  --space-spacing-9xl-96: 96px;
+  --space-spacing-10xl-128: 128px;
+  --space-spacing-11xl-160: 160px;
 }

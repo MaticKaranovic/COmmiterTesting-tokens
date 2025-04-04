@@ -3,7 +3,7 @@
  * To modify the format or content of this file, please contact your design system team. 
  */
 
-:root {
+.theme-dark {
   --border-width-border-width-none: 0px;
   --border-width-border-width-sm: 1px;
   --border-width-border-width-md: 2px;

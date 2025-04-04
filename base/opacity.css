@@ -4,19 +4,9 @@
  */
 
 :root {
-  --opacity-opacity-000: 0;
-  --opacity-opacity-010: 0.1;
-  --opacity-opacity-020: 0.2;
-  --opacity-opacity-030: 0.3;
-  --opacity-opacity-040: 0.4;
-  --opacity-opacity-050: 0.5;
-  --opacity-opacity-060: 0.6;
-  --opacity-opacity-070: 0.7;
-  --opacity-opacity-080: 0.8;
-  --opacity-opacity-090: 0.9;
-  --opacity-opacity-100: 1;
-  --opacity-opacity-enabled: var(--opacity-opacity-060);
-  --opacity-opacity-disabled: var(--opacity-opacity-030);
-  --opacity-opacity-card-meta-container-enabled-opacity: var(--opacity-opacity-enabled);
-  --opacity-opacity-toggle-disabled-opacity: var(--opacity-opacity-disabled);
+  --opacity-hover: 0.75;
+  --opacity-active: 0.5;
+  --opacity-highlight: 0.6;
+  --opacity-testing-scope: 0.85;
+  --opacity-color-primary-remove-all-scopes-add-opacity: 0.6;
 }

@@ -4,49 +4,20 @@
  */
 
 :root {
-  --font-size-typography-font-size-8: 8px;
-  --font-size-typography-font-size-10: 10px;
-  --font-size-typography-font-size-12: 12px;
-  --font-size-typography-font-size-14: 14px;
-  --font-size-typography-font-size-16: 16px;
-  --font-size-typography-font-size-18: 18px;
-  --font-size-typography-font-size-20: 20px;
-  --font-size-typography-font-size-24: 24px;
-  --font-size-typography-font-size-28: 28px;
-  --font-size-typography-font-size-32: 32px;
-  --font-size-typography-font-size-40: 40px;
-  --font-size-typography-font-size-48: 48px;
-  --font-size-typography-font-size-60: 60px;
-  --font-size-typography-font-size-96: 96px;
-  --font-size-typography-font-size-120: 120px;
-  --font-size-typography-font-size-136: 136px;
-  /* The button hover state is 105% scale, this replicates the default tokens and some math to achieve scale. */
-  --font-size-typography-font-size-button-sm-label-hovered: 14.7px;
-  /* The button hover state is 105% scale, this replicates the default tokens and some math to achieve scale. */
-  --font-size-typography-font-size-button-md-label-hovered: 16.8px;
-  /* The button hover state is 105% scale, this replicates the default tokens and some math to achieve scale. */
-  --font-size-typography-font-size-button-lg-label-hovered: 21px;
-  --font-size-typography-font-size-display-xsm: var(--font-size-typography-font-size-32);
-  --font-size-typography-font-size-display-sm: var(--font-size-typography-font-size-40);
-  --font-size-typography-font-size-display-md: var(--font-size-typography-font-size-48);
-  --font-size-typography-font-size-display-lg: var(--font-size-typography-font-size-60);
-  --font-size-typography-font-size-display-xlg: var(--font-size-typography-font-size-96);
-  --font-size-typography-font-size-display-xxlg: var(--font-size-typography-font-size-136);
-  --font-size-typography-font-size-heading-xxsm: var(--font-size-typography-font-size-16);
-  --font-size-typography-font-size-heading-xsm: var(--font-size-typography-font-size-18);
-  --font-size-typography-font-size-heading-sm: var(--font-size-typography-font-size-20);
-  --font-size-typography-font-size-heading-md: var(--font-size-typography-font-size-24);
-  --font-size-typography-font-size-heading-lg: var(--font-size-typography-font-size-28);
-  --font-size-typography-font-size-heading-xlg: var(--font-size-typography-font-size-32);
-  --font-size-typography-font-size-heading-xxlg: var(--font-size-typography-font-size-40);
-  --font-size-typography-font-size-body-xxxsm: var(--font-size-typography-font-size-8);
-  --font-size-typography-font-size-body-xxsm: var(--font-size-typography-font-size-10);
-  --font-size-typography-font-size-body-xsm: var(--font-size-typography-font-size-12);
-  --font-size-typography-font-size-body-sm: var(--font-size-typography-font-size-14);
-  --font-size-typography-font-size-body-md: var(--font-size-typography-font-size-16);
-  --font-size-typography-font-size-body-lg: var(--font-size-typography-font-size-18);
-  --font-size-typography-font-size-body-xlg: var(--font-size-typography-font-size-20);
-  --font-size-typography-font-size-body-xxlg: var(--font-size-typography-font-size-24);
-  --font-size-typography-font-size-body-xxxlg: var(--font-size-typography-font-size-28);
-  --font-size-typography-font-size-body-xxxxlg: var(--font-size-typography-font-size-32);
+  --font-size-font-size-label: 12px;
+  --font-size-font-size-button: 14px;
+  --font-size-font-size-links-sm: 14px;
+  --font-size-font-size-links-md: 16px;
+  --font-size-font-size-links-lg: 18px;
+  --font-size-font-size-links-xl: 20px;
+  --font-size-font-size-body-sm: 14px;
+  --font-size-font-size-body-md: 16px;
+  --font-size-font-size-body-lg: 18px;
+  --font-size-font-size-body-xl: 20px;
+  --font-size-font-size-header-6: 24px;
+  --font-size-font-size-header-5: 30px;
+  --font-size-font-size-header-4: 36px;
+  --font-size-font-size-header-3: 48px;
+  --font-size-font-size-header-2: 60px;
+  --font-size-font-size-header-1: 72px;
 }

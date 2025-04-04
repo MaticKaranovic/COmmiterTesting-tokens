@@ -4,5 +4,8 @@
  */
 
 :root {
-  --string-typography-font-family-default: "Pluto TV Sans V10";
+  --string-font-family-font1: "Inter";
+  --string-font-family-font-italic: "Poppins-italic";
+  --string-font-weight-string: "String value";
+  --string-style-font1: "Inter";
 }

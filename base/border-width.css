@@ -4,18 +4,9 @@
  */
 
 :root {
-  --border-width-border-width-none: 0px;
-  --border-width-border-width-sm: 1px;
-  --border-width-border-width-md: 2px;
-  --border-width-border-width-lg: 4px;
-  --border-width-border-width-badge-sm-width: var(--border-width-border-width-sm);
-  --border-width-border-width-badge-lg-width: var(--border-width-border-width-md);
-  --border-width-border-width-button-width: var(--border-width-border-width-md);
-  --border-width-border-width-checkbox-sm-width: var(--border-width-border-width-md);
-  --border-width-border-width-checkbox-lg-width: var(--border-width-border-width-lg);
-  --border-width-border-width-outline-sm-width: var(--border-width-border-width-md);
-  --border-width-border-width-outline-lg-width: var(--border-width-border-width-lg);
-  --border-width-border-width-radio-sm-width: var(--border-width-border-width-md);
-  --border-width-border-width-radio-lg-width: var(--border-width-border-width-lg);
-  --border-width-border-width-input-width: var(--border-width-border-width-lg);
+  --border-width-border-width-width-xs-1: 1px;
+  --border-width-border-width-width-sm-1-5: 1.5px;
+  --border-width-border-width-width-md-2: 2px;
+  --border-width-border-width-width-lg-2-5: 2.5px;
+  --border-width-border-width-width-xl-3: 3px;
 }

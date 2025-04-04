@@ -1,0 +1,12 @@
+/**
+ * This file was generated automatically by Supernova.io and should not be changed manually.
+ * To modify the format or content of this file, please contact your design system team. 
+ */
+
+:root {
+  --opacity-hover: 0.75;
+  --opacity-active: 0.5;
+  --opacity-highlight: 0.6;
+  --opacity-testing-scope: 0.85;
+  --opacity-color-primary-remove-all-scopes-add-opacity: 0.6;
+}

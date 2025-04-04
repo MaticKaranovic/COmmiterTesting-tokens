@@ -1,0 +1,24 @@
+/**
+ * This file was generated automatically by Supernova.io and should not be changed manually.
+ * To modify the format or content of this file, please contact your design system team. 
+ */
+
+:root {
+  --space-spacing-none-0: 0px;
+  --space-spacing-xxs-2: 2px;
+  --space-spacing-xs-4: 4px;
+  --space-spacing-sm-6: 6px;
+  --space-spacing-md-8: 8px;
+  --space-spacing-lg-12: 12px;
+  --space-spacing-xl-16: 16px;
+  --space-spacing-2xl-20: 20px;
+  --space-spacing-3xl-24: 24px;
+  --space-spacing-4xl-32: 32px;
+  --space-spacing-5xl-40: 40px;
+  --space-spacing-6xl-48: 48px;
+  --space-spacing-7xl-64: 64px;
+  --space-spacing-8xl-80: 80px;
+  --space-spacing-9xl-96: 96px;
+  --space-spacing-10xl-128: 128px;
+  --space-spacing-11xl-160: 160px;
+}

@@ -1,0 +1,86 @@
+/**
+ * This file was generated automatically by Supernova.io and should not be changed manually.
+ * To modify the format or content of this file, please contact your design system team. 
+ */
+
+.theme-light-a320 {
+  --color-background-background: #ff3737;
+  --color-surface-surface-primary: #badaf7;
+  --color-surface-surface-secondary: #f6f4ffb0;
+  --color-surface-surface-neutral: #f1f2f3;
+  --color-surface-surface-neutral-2: #fafafa;
+  --color-surface-on-surface: #151619;
+  --color-background-on-background: #082845;
+  --color-primary-default: #5fa9ed;
+  --color-primary-on-primary: #082845;
+  --color-secondary-default: #8770dc;
+  --color-secondary-on-secondary: #151619;
+  --color-feedback-succes-default: #44d487;
+  --color-feedback-succes-on-sucess: #05150c;
+  --color-feedback-medium-default: #feb91b;
+  --color-feedback-medium-on-medium: #191200;
+  --color-feedback-error-default: #f26359;
+  --color-feedback-error-on-error: #180302;
+  --color-feedback-inactive-default: #f1f2f3;
+  --color-feedback-inactive-on-inactive: #c5c7ce;
+  --color-buttons-button-tertiary: #ffffff;
+  --color-buttons-button-blur: #a9adb773;
+  --color-borders-border: #5b5f6c;
+  --color-utility-utility-gray-iron: #a1a1aa;
+  --color-neutrals-09: #151619;
+  --color-neutrals-19: #2c2e34;
+  --color-neutrals-29: #444750;
+  --color-neutrals-39: #5b5f6c;
+  --color-neutrals-49: #737887;
+  --color-neutrals-59: #8e929f;
+  --color-neutrals-69: #a9adb7;
+  --color-neutrals-79: #c5c7ce;
+  --color-neutrals-89: #e1e2e5;
+  --color-neutrals-95: #f1f2f3;
+  --color-neutrals-97: #f7f7f8;
+  --color-neutrals-99: #fcfcfd;
+  --color-neutrals-100: #ffffff;
+  --color-utility-utility-green: #9de963;
+  --color-utility-utility-teal: #5fecd7;
+  --color-utility-utility-blue: #50a2fb;
+  --color-utility-utility-violet: #7454f8;
+  --color-utility-utility-fuchsia: #f05bc4;
+  --color-utility-utility-orange: #f38e58;
+  --color-utility-utility-yellow: #f9c953;
+  --color-utility-on-utility-on-gray-iron: #d7d7db;
+  --color-utility-on-utility-on-green: #d5f5bc;
+  --color-utility-on-utility-on-teal: #baf7ee;
+  --color-utility-on-utility-on-blue: #b4d7fd;
+  --color-utility-on-utility-on-violet: #c4b6fc;
+  --color-utility-on-utility-on-fuchsia: #f9b9e6;
+  --color-utility-on-utility-on-orange: #facfb7;
+  --color-utility-on-utility-on-yellow: #fce8b5;
+  --color-buttons-on-button-blur: #ffffff;
+  --color-color-styles-primary-grey: #d9d9d9;
+  --color-color-styles-primary-red: #ff0000;
+  --color-color-styles-primary-blue: #2441aa;
+  --color-components-linear-gray-blue-50: #7077c2;
+  --color-components-linear-gray-blue-60: #1d68d9;
+  --color-components-linear-gray-blue-70: #1029b4;
+  --color-main-component-web-cover-test-themes: #ff5f5f;
+  --color-components-buttons-linear-gray-blue-50: #7077c2;
+  --color-components-buttons-linear-gray-blue-60: #1d68d9;
+  --color-components-buttons-linear-gray-blue-70: #1029b4;
+  --color-components-buttons-primary-linear-gray-blue-50: #7077c2;
+  --color-components-buttons-primary-linear-gray-blue-60: #1d68d9;
+  --color-components-buttons-primary-linear-gray-blue-70: #1029b4;
+  --color-components-widgets-linear-gray-blue-50: #7077c2;
+  --color-components-widgets-linear-gray-blue-60: #1d68d9;
+  --color-components-widgets-linear-gray-blue-70: #1029b4;
+  --color-background-background-test1: #ff3737;
+  --color-background-background-test2: #d33d3d;
+  --color-testing-themes: #e08585;
+  /* testing */
+  --color-color-styles-primary-grey: #d9d9d9;
+  --color-testing-a-name-like-this: #ffffff;
+  --color-color-primary-test-color-2: #ffffff;
+  --color-aaaacolor: #fdff83;
+  --color-cli-gh-action-test: #902121;
+  --color-cli-test-gh-action-2: #d66a6a;
+  --color-color-primary-test-color: var(--color-background-background-test1);
+}

@@ -1,0 +1,23 @@
+/**
+ * This file was generated automatically by Supernova.io and should not be changed manually.
+ * To modify the format or content of this file, please contact your design system team. 
+ */
+
+.theme-dark {
+  /* Use this token for (display) headings only. */
+  --paragraph-spacing-typography-paragraph-spacing-0: 0px;
+  --paragraph-spacing-typography-paragraph-spacing-16: 16px;
+  /* WCAG 2.1 Accessibility Guidelines: Spacing following paragraphs should be at least 2x the font size. */
+  --paragraph-spacing-typography-paragraph-spacing-18: 18px;
+  --paragraph-spacing-typography-paragraph-spacing-20: 20px;
+  /* WCAG 2.1 Accessibility Guidelines: Spacing following paragraphs should be at least 2x the font size. */
+  --paragraph-spacing-typography-paragraph-spacing-24: 24px;
+  --paragraph-spacing-typography-paragraph-spacing-28: 28px;
+  --paragraph-spacing-typography-paragraph-spacing-32: 32px;
+  /* WCAG 2.1 Accessibility Guidelines: Spacing following paragraphs should be at least 2x the font size. */
+  --paragraph-spacing-typography-paragraph-spacing-36: 36px;
+  /* WCAG 2.1 Accessibility Guidelines: Spacing following paragraphs should be at least 2x the font size. */
+  --paragraph-spacing-typography-paragraph-spacing-48: 48px;
+  /* WCAG 2.1 Accessibility Guidelines: Spacing following paragraphs should be at least 2x the font size. */
+  --paragraph-spacing-typography-paragraph-spacing-56: 56px;
+}

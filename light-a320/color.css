@@ -74,7 +74,6 @@
   --color-components-widgets-linear-gray-blue-70: #1029b4;
   --color-background-background-test1: #ff3737;
   --color-background-background-test2: #d33d3d;
-  --color-testing-themes: #e08585;
   /* testing */
   --color-color-styles-primary-grey: #d9d9d9;
   --color-testing-a-name-like-this: #ffffff;
@@ -82,5 +81,6 @@
   --color-aaaacolor: #fdff83;
   --color-cli-gh-action-test: #902121;
   --color-cli-test-gh-action-2: #d66a6a;
+  --color-aaa-testing-commiter: #b71d1d;
   --color-color-primary-test-color: var(--color-background-background-test1);
 }

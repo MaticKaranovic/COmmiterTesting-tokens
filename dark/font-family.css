@@ -3,6 +3,7 @@
  * To modify the format or content of this file, please contact your design system team. 
  */
 
-:root {
-  --string-typography-font-family-default: "Pluto TV Sans V10";
+.theme-dark {
+  --font-family-testing: "Parkinsans";
+  --font-family-typography-font-family-default: "Pluto TV Sans V10";
 }

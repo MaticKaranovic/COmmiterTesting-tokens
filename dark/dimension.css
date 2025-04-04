@@ -3,7 +3,7 @@
  * To modify the format or content of this file, please contact your design system team. 
  */
 
-:root {
+.theme-dark {
   --dimension-spacing-2: 2px;
   --dimension-spacing-4: 4px;
   --dimension-spacing-8: 8px;

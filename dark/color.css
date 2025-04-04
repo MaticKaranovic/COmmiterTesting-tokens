@@ -3,7 +3,7 @@
  * To modify the format or content of this file, please contact your design system team. 
  */
 
-:root {
+.theme-dark {
   --color-test-with-matic: #da2a2a33;
   --color-styles-tokens: #b42828;
   --color-assets: #fa4949;
